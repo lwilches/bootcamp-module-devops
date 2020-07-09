@@ -9,3 +9,7 @@ Desplegando Mythical Mysfits en un servidor EC2
 ## [Taler 2](./02/README.md)
 
 Desplegando la API de Mythical Mysfits usando Auto Scaling Groups
+
+## [Taler 3](./03/README.md)
+
+Desplegando la API usando CloudFormation y Auto Scaling Groups
