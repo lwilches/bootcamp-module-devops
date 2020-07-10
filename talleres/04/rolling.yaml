@@ -80,9 +80,19 @@ Resources:
           /opt/aws/bin/cfn-signal -e 0 --region ${AWS::Region} --stack ${AWS::StackName} --resource AutoScalingGroup
   AutoScalingGroup:
     Type: AWS::AutoScaling::AutoScalingGroup
-    # CreationPolicy:
-
+    CreationPolicy:
+      ResourceSignal:    
+        Count: 3
+        Timeout: PT5M
     # UpdatePolicy:
+      UpdatePolicy:
+      AutoScalingScheduledAction:
+        IgnoreUnmodifiedGroupSizeProperties: 'true'
+      AutoScalingRollingUpdate:
+        MinInstancesInService: '1'
+        MaxBatchSize: '2'
+        PauseTime: PT2M
+        WaitOnResourceSignals: 'true'
 
     Properties:
       AvailabilityZones: !GetAZs

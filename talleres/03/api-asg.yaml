@@ -75,6 +75,7 @@ Resources:
           cd ~/bootcamp-module-devops/backend/
           pip install -r requirements.txt
           nohup gunicorn -w 3 -b 0.0.0.0:8000 app:app &
+          /opt/aws/bin/cfn-signal -e 0 --region ${AWS::Region} --stack ${AWS::StackName} --resource AutoScalingGroup
 
   AutoScaling:    
     Type: AWS::AutoScaling::AutoScalingGroup
