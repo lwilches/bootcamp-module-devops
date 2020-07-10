@@ -83,14 +83,13 @@ Resources:
       ResourceSignal:    
         Count: 3
         Timeout: PT5M
-    # UpdatePolicy:
-      UpdatePolicy:
+    UpdatePolicy:
       AutoScalingScheduledAction:
         IgnoreUnmodifiedGroupSizeProperties: 'true'
       AutoScalingRollingUpdate:
         MinInstancesInService: '1'
         MaxBatchSize: '2'
-        PauseTime: PT2M
+        PauseTime: PT1M
         WaitOnResourceSignals: 'true'
 
     Properties:
