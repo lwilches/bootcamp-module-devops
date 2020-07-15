@@ -33,7 +33,7 @@ Resources:
   TargetGroup:
     Type: AWS::ElasticLoadBalancingV2::TargetGroup
     Properties:
-      Name: Stack01
+      Name: Stack02
       HealthCheckIntervalSeconds: 30
       HealthCheckPath: /
       HealthCheckPort: 8000
