@@ -1,7 +1,7 @@
 from flask import Flask, jsonify, json, Response, request
 from flask_cors import CORS
 
-# A very basic API created using Flask that has two possible routes for requests.
+# A very basic API created using Flask that has two possible routes for requests. lwilches
 
 app = Flask(__name__)
 CORS(app)
@@ -10,7 +10,7 @@ CORS(app)
 # sent to the service root will receive a healthy response.
 @app.route("/")
 def healthCheckResponse():
-    return jsonify({"message": "Version 1. Nothing here, used for health check. Try /mysfits instead."})
+    return jsonify({"message": "Version 1. Nothing here, used for health check. from  lwilches Try /mysfits instead."})
 
 # The main API resource that the next version of the Mythical Mysfits website
 # will utilize. It returns the data for all of the Mysfits to be displayed on
