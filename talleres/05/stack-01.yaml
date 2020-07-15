@@ -76,7 +76,7 @@ Resources:
     Properties:
       AvailabilityZones: !GetAZs
       LaunchConfigurationName: !Ref LaunchConfiguration
-      DesiredCapiacity: 1
+      DesiredCapacity: 1
       MaxSize: 2
       MinSize: 1
       TargetGroupARNs:
