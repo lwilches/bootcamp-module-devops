@@ -1,0 +1,12 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - aws cloudformation validate-template --template-body file://talleres/07/api-cfn-pipeline.yaml
+
+artifacts:
+  discard-paths: yes 
+  files:
+    - talleres/07/api-cfn-pipeline.yaml
+  # Archivos a exportar
