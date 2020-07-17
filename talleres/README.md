@@ -17,3 +17,5 @@ A lo largo del curso, evolucionaremos la forma de desplegar la aplicación ocupa
 7. [Taller 7](./07/README.md): Introducción a CodePipeline
 
 8. [Taller 8](./08/README.md): Introducción a CodeDeploy
+
+9. [Taller 9](./09/README.md): CI/CD
