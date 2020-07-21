@@ -19,3 +19,5 @@ A lo largo del curso, evolucionaremos la forma de desplegar la aplicación ocupa
 8. [Taller 8](./08/README.md): Introducción a CodeDeploy
 
 9. [Taller 9](./09/README.md): CI/CD
+
+10. [Taller 10](./10/README.md): VPC Peering
