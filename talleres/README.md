@@ -21,3 +21,5 @@ A lo largo del curso, evolucionaremos la forma de desplegar la aplicación ocupa
 9. [Taller 9](./09/README.md): CI/CD
 
 10. [Taller 10](./10/README.md): VPC Peering
+
+11. [Taller 11](./11/README.md): Introducción a Docker
