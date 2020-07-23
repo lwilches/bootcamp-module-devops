@@ -25,3 +25,5 @@ A lo largo del curso, evolucionaremos la forma de desplegar la aplicación ocupa
 11. [Taller 11](./11/README.md): Introducción a Docker
 
 12. [Taller 12](./12/README.md): Introducción a ECS
+
+13. [Taller 13](./13/README.md): CI/CD con ECS
